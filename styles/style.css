@@ -1,4 +1,6 @@
 body {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
   margin: 0;
   background-color: #1e1e1e;
 }
@@ -15,4 +17,46 @@ ol,
 blockquote {
   margin: 0;
   padding: 0;
+}
+
+.content-section {
+  box-sizing: border-box;
+  width: 360px;
+  min-height: 100px;
+  margin: auto;
+}
+
+.content-section_theme_dark {
+  background-color: black;
+  color: white;
+}
+
+.content-section_theme_bright {
+  background-color: yellow;
+  color: black;
+}
+
+.header {
+  display: flex;
+  padding: 24px 20px;
+}
+
+.cover {
+  padding: 7px 24px 30px 20px;
+}
+
+.intro {
+  padding: 0 20px 37px;
+}
+
+.reasons {
+  padding: 40px 20px;
+}
+
+.how-to {
+  padding: 40px 20px 60px;
+}
+
+.footer {
+  padding: 20px;
 }
